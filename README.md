@@ -1,9 +1,13 @@
 # MRBS
 
-[![PyPI version](https://badge.fury.io/py/mrbs.svg)](https://badge.fury.io/py/mrbs)
-[![Python versions](https://img.shields.io/pypi/pyversions/mrbs.svg)](https://pypi.org/project/mrbs/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests](https://github.com/yutotakagi/MRBS/actions/workflows/test.yml/badge.svg)](https://github.com/yutotakagi/MRBS/actions/workflows/test.yml)
+[![Tests](https://github.com/yut0takagi/MRBS/actions/workflows/test.yml/badge.svg)](https://github.com/yut0takagi/MRBS/actions/workflows/test.yml)
+[![Python](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)](https://www.python.org/)
+
+<!-- PyPI公開後に有効化
+[![PyPI version](https://badge.fury.io/py/mrbs.svg)](https://badge.fury.io/py/mrbs)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mrbs.svg)](https://pypi.org/project/mrbs/)
+-->
 
 **Model-based Response surface optimization with Bootstrap Sampling**
 
@@ -24,7 +28,7 @@ pip install mrbs
 開発版のインストール:
 
 ```bash
-git clone https://github.com/yutotakagi/MRBS.git
+git clone https://github.com/yut0takagi/MRBS.git
 cd MRBS
 pip install -e ".[dev]"
 ```
@@ -94,6 +98,5 @@ plot_optimization_result(xx, yy, F_grid, result)
 
 ## 関連リンク
 
-- [PyPI](https://pypi.org/project/mrbs/)
-- [GitHub Repository](https://github.com/yutotakagi/MRBS)
-- [Issue Tracker](https://github.com/yutotakagi/MRBS/issues)
+- [GitHub Repository](https://github.com/yut0takagi/MRBS)
+- [Issue Tracker](https://github.com/yut0takagi/MRBS/issues)
